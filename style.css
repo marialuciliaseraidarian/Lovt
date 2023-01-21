@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+html {
+    font-size: 80%;
+}
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #888888;
+    width: 100%;
+} 
+
+body * {
+    box-sizing: border-box;
+}
+
+body > header {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    box-shadow: .1rem .1rem 1rem gray;
+}
+
+header > * {
+    display:inline-block;
+    margin: 0;
+}
+
+body > header > img {
+    float: right;
+    margin-top: 1rem;
+    width: 1.5rem;
+}
+
+body > main {
+    width: 100%;
+}
+
+#banner {
+    padding: 1rem;
+    width: 100%;
+}
+
+#banner > img{
+    width: 100%;
+}
+
+#sales {
+    padding: 0 1rem;
+    width: 100%;
+}
+
+#sales > article {
+    width:  100%;
+    margin-bottom: 1rem;
+}
+
+#sales > article img {
+    width:  100%;
+    margin-bottom: -.5rem
+}
+
+#sales > article > footer {
+    padding: 12px;
+    background-color: #eeee;
+}
+
+#sales span {
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.right {
+    border-radius: 1.5rem;
+    background-color: #51d275;
+    color: white;
+    padding: 0 1rem;
+    float: right;
+}
+
+.right.sale {
+    background-color: #dc9730;
+}
+
+#your-style {
+    padding: 0 1rem;
+}
+
+#your-style * {
+    width: 100%;
+    text-align: center;
+}
+
+.opaque {
+    opacity: 0.5;
+}
+
+.styles {
+    min-height: 5rem;
+    padding-top: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.styles span {
+    font-size: 1.5rem;
+    text-shadow: black .2rem .1rem;
+}
+
+.industrial {
+    background-image: url('./img/Rectangle\ 11.png');
+}
+
+.moderm {
+        background-image: url('./img/Rectangle\ 12.png');
+} 
+        
+.classic {
+            background-image: url('./img/Rectangle\ 13.png');
+}
+    
+footer {
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: #333333;
+}
+
+footer > #gmaps {
+    width: 100%;
+}
+
+#contacts {
+    color: white;
+    text-align: center;
+    vertical-align: center;
+
+}
+
+@media (min-width: 600px) {
+    #sales > article {
+        width:  45%;
+        display: inline-block;
+    } 
+
+    #sales > article:last-child {
+        float: right;
+    }
+    
+    footer > #gmaps {
+        width: 40%;
+        display: inline-block;
+    }
+
+    footer > #contacts {
+        width: 40%;
+        text-align: start;
+        display: inline-block;
+        float: right;
+    }
+
+}
+@media (min-width: 768px) {
+    body{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    body{
+        max-width: 992px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    body{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
