@@ -1,6 +1,6 @@
 # Lovt
 
-### Atividade para aprendizagem de HTML e CSS - Curos de Full Stack - Digital House
+### Atividade para aprendizagem de HTML e CSS - Curso de Full Stack - Digital House
 
 ## Tecnologias:
 Este projeto foi desenvolvido em HTML e CSS.
